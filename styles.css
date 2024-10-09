@@ -36,13 +36,13 @@
     :root {
         background-color: var(--background-color);
         cursor: url("resources/cursor3.png") 4 5, default;
-        :has(li.redpill:hover) {
+        &:has(li.redpill:hover) {
             /* box-shadow: 2px 2px 20px red inset; */
             h1{
                 color: red;
             }
         }
-        :has(li.bluepill:hover) {
+        &:has(li.bluepill:hover) {
             /* box-shadow: 2px 2px 20px #007bff inset; */
             h1{
                 color: #007bff;
@@ -154,7 +154,7 @@
     
                                     &:hover {
                                         cursor: url("resources/cursor3.png") 4 5, pointer;
-                                    }
+                                    }                                    
                                 }
     
                                 /* p{
