@@ -80,7 +80,6 @@
                       /* box-shadow: 2px 2px 20px red inset; */
                      h1{
                          color: red;
-                         transition: 1s color;
                      }
                  }
                
@@ -88,7 +87,6 @@
                      /* box-shadow: 2px 2px 20px #007bff inset; */
                      h1{
                          color: #007bff;
-                         transition: 1s color;
                      }
                  }
             }
